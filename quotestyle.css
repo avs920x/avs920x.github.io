@@ -1,0 +1,105 @@
+/*
+html {
+  box-sizing: border-box;
+}
+*/
+
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  text-align: center;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: lighter;
+  text-align:center;
+/*  display:flex; */
+  align-items:center;
+  justify-content: center;
+}
+
+
+h1 {
+  font-size: 46pt;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: lighter;
+  margin: 2em;
+}
+
+
+button {
+  width:max-content;
+  height:max-content;
+  background-color: conic-gradient(0% );
+}
+
+
+html {
+  --s: 200px; /* control the size */
+ 
+  background:
+    repeating-conic-gradient(from 30deg,#0000 0 120deg,#3c3c3c 0 180deg)
+     calc(.5*var(--s)) calc(.5*var(--s)*0.577),
+    repeating-conic-gradient(from 30deg,#1d1d1d 0 60deg,#4e4f51 0 120deg,#3c3c3c 0 180deg);
+  background-size: var(--s) calc(var(--s)*0.577);
+
+
+}
+
+
+.quote-container {
+  width: auto;
+  max-width:900px;
+  padding: 20px 30px;
+  border-radius: 10px;
+  border-color: rgba(255,255,255,0.75);
+  box-shadow: 0 10px 10px 10px rgba(0,0,0,0.4);
+  align-items:center;
+  justify-content: center;
+  align-self: center;
+  margin-left: 16em;
+  margin-bottom:10px;
+  margin-right:8em;
+}
+
+
+.quote-text {
+  font-size: 1.5rem;
+}
+
+
+.button-container {
+  margin-top:15px;
+  display:flex;
+  justify-content: space-between;
+}
+
+
+button {
+  cursor: pointer;
+  font-size: 1.2rem;
+  height:2.5rem;
+  border:none;
+  border-radius:10px;
+  color:white;
+  background-color: black;
+  outline:none;
+  padding:0.5rem 1.8rem;
+  box-shadow:0 0.3rem rgba(121,121,121,0.65)
+}
+
+
+button:hover {
+  filter:brightness(110%);
+}
+
+
+button:active {
+  transform:translate(0 00.3rem);
+  box-shadow: rgba(255,255,255,0.65);
+}
+
+
+.twitter-button:hover {
+  background-color:dodgerblue;
+}
