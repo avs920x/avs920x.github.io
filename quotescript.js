@@ -35,6 +35,9 @@ async function getQuotes() {
     }
 }
 
+//on load
+getQuotes();
+
 /* Set the width of the side navigation to 250px */
   function openNav() {
     document.getElementById("mySidenav").style.width = "250px";
@@ -45,7 +48,6 @@ async function getQuotes() {
     document.getElementById("mySidenav").style.width = "0";
   }
 
-//on load
-getQuotes();
+
 
 
