@@ -259,6 +259,6 @@ input[type=submit]:hover {
   #footer, #footerTable, #footerData, #footerTbody {
     display: flex;
     flex-direction: row;
-    width: auto;
+    width: 100%;
   }
 }
