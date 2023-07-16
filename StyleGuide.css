@@ -251,6 +251,16 @@ input[type=submit]:hover {
     flex-direction: row;
     flex-wrap: wrap;
   }
+  div {
+       display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  section {
+       display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }  
 }
 
    @media screen and (max-width: 480px) {
