@@ -249,7 +249,7 @@ input[type=submit]:hover {
   table {
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
+    flex-wrap: none;
     width: auto;
     margin: 0.5rem;
   } 
@@ -260,7 +260,7 @@ input[type=submit]:hover {
     display: flex;
     flex-direction: row;
   }
-    #footer, #footerTable {
+    #footer, #footerTable,  #footerTbody {
         width: 100%
     }
 }
