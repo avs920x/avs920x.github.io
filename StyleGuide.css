@@ -244,3 +244,9 @@ input[type=submit]:hover {
 #bottomSection {
   height: 345px;
 }
+
+@media screen and (max-width: 480px) {
+  table, thead, tbody, th, tr, td {
+    display: block;
+  }
+}
