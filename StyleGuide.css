@@ -251,7 +251,7 @@ input[type=submit]:hover {
     flex-direction: row;
     flex-wrap: wrap;
     width: auto;
-    margin: 1rem;
+    margin: 0.5rem;
   } 
 }
 
@@ -260,4 +260,7 @@ input[type=submit]:hover {
     display: flex;
     flex-direction: row;
   }
+    #footer, #footerTable {
+        width: 100%
+    }
 }
