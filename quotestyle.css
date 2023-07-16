@@ -152,6 +152,12 @@ button:active {
     display: block;
     width: 100%;
     margin: 2em;
+    margin-left: 1em;
+    margin-bottom:1em;
+    margin-right:1em;
+  }
+  h1 {
+    margin: 1em;
   }
 }
 
