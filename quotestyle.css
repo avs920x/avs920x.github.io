@@ -148,8 +148,9 @@ button:active {
   }
 
 @media screen and (max-width: 480px) {
-  table, thead, tbody, th, tr, td {
+  .quote-container {
     display: block;
+    width: 100%;
   }
 }
 
