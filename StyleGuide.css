@@ -250,17 +250,9 @@ input[type=submit]:hover {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-  }
-  div {
-       display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-  }
-  section {
-       display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-  }  
+    width: auto;
+    margin: 1rem;
+  } 
 }
 
    @media screen and (max-width: 480px) {
