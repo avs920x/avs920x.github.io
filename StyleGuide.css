@@ -247,6 +247,19 @@ input[type=submit]:hover {
 
 @media screen and (max-width: 480px) {
   table, thead, tbody {
+    width: 100%;
+    margin: 0.5rem;
+  } 
+ img {
+     width: 30px;
+     height: 30px;
+  }
+}
+
+
+/*
+@media screen and (max-width: 480px) {
+  table, thead, tbody {
     display: flex;
     flex-direction: row;
     flex-wrap: none;
@@ -266,3 +279,4 @@ input[type=submit]:hover {
     width: 100%;
   }
 }
+*/
