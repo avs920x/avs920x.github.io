@@ -250,3 +250,10 @@ input[type=submit]:hover {
     display: block;
   }
 }
+
+   @media screen and (max-width: 480px) {
+  #footer, #footerTable, #footerData, #footerTbody {
+    display: flex;
+    flex-direction: column;
+  }
+}
