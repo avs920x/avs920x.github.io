@@ -42,8 +42,6 @@ html {
      calc(.5*var(--s)) calc(.5*var(--s)*0.577),
     repeating-conic-gradient(from 30deg,#1d1d1d 0 60deg,#4e4f51 0 120deg,#3c3c3c 0 180deg);
   background-size: var(--s) calc(var(--s)*0.577);
-
-
 }
 
 
@@ -149,6 +147,11 @@ button:active {
     .sidenav a {font-size: 18px;}
   }
 
+@media screen and (max-width: 480px) {
+  table, thead, tbody, th, tr, td {
+    display: block;
+  }
+}
 
 .twitter-button:hover {
   background-color:dodgerblue;
